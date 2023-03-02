@@ -43,6 +43,11 @@ li a {
 }
 
 .hero {
-    background-image: url('https://images.pexels.com/photos/629138/pexels-photo-629138.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-image: (../assets/images/);
+    
 }
 
+.hero-image {
+    height: 600px;
+    width: 100%;
+}
