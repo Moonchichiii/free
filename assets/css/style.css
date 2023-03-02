@@ -43,8 +43,9 @@ li a {
 }
 
 .hero {
-    background-image: (../assets/images/barkbkg.jpg);
-    
+    width: 100%;
+    height: 600px;
+    background: url('../assets/images/barkbkg.jpg') no-repeat center center;  
 }
 
 .hero-image {
