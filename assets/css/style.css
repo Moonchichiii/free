@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding:0;
+    border-sizing:border-box;
 }
 
 body {
@@ -48,9 +49,13 @@ li a {
     justify-content: center;
     align-items: center;
     flex-basis: 100%;
+    width: 100%
+    heigth:20vh;
+
+
 }
 .hero-image {
-    background-image: url('barkbkg.jpg');  
+    background-image: url('barkbkg.jpg');
     background-size: cover;
     background-position: center center;
     flex:1 99%;
