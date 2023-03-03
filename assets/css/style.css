@@ -42,9 +42,17 @@ li a {
     text-decoration: none;
 }
 
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 100%;
+}
 .hero-image {
-    background-image: url("");  
+    background-image: url('barkbkg.jpg');  
     background-size: cover;
     background-position: center center;
+    flex:1 99%;
 
 }
